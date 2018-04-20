@@ -1,0 +1,551 @@
+/* GLOBAL */
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: #313131;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo {
+    width: 75%;
+    position: relative;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.logo-text {
+    width: 90%;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 95%;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-right: 3%;
+    margin-top: 3%
+}
+
+a {
+    text-decoration: none;
+    color: lightslategrey;
+}
+
+.patchimage {
+    width: 100%;
+}
+
+.patchi {
+    position: relative;
+    text-align: center;
+    color: white;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    outline: 5px black;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#patchtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    outline: 5px black;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-decoration: none;
+    color: white;
+}
+
+.worldsimage {
+    width: 100%;
+}
+
+.worldsi {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.astrafnatimage {
+    width: 100%;
+}
+
+.astrafnai {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.blizzardimage {
+    width: 100%;
+}
+
+.blizzardi {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hpatch {
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.ppatch1 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.ppatch2 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 0%;
+    width: 45%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.ppatch3 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 20%
+}
+
+.imgpatch {
+    width: 43%;
+    float: right;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.ptips1 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.ptips2 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 0%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.ptips3 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.ptips4 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-bottom: 20%
+}
+
+.imgtips {
+    width: 100%;
+    float: right;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.pworld1 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.pworld2 {
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 0%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.pworld3 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.pworld4 {
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.imgworld1 {
+    width: 100%;
+    float: right;
+    margin-top: 4%;
+}
+
+.imgworld2 {
+    width: 100%;
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 18%;
+}
+
+/* IPHONE MEDIA */
+
+@media screen and (min-width: 375px) {
+
+    /* NAVIGATION */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+        padding: 16px 30px;
+        text-decoration: none;
+        font-size: 23px;
+        text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    }
+
+    .navbar a:hover {
+        background: grey;
+        color: white;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10%;
+    }
+
+    .main {
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+
+    .navimage {
+        width: 120%;
+    }
+
+    .patchimage {
+        width: 100%;
+
+    }
+    .worldsimage {
+        width: 100%;
+    }
+    .astrafnatimage {
+        width: 100%;
+    }
+
+    .blizzardimage {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 408px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar a:hover {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    /* NAVIGATION */
+    .navbar {
+        display: none;
+    }
+
+    .navbar a {
+        display: none;
+    }
+
+    .navbar a:hover {
+        display: none;
+    }
+
+    .navimage {
+        display: block;
+        width: 120%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .main {
+        padding: 16px;
+        margin-bottom: 30px;
+    }
+
+    .patchimage {
+        width: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+    .worldsimage {
+        width: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+    .astrafnatimage {
+        width: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+
+    .blizzardimage {
+        width: 100%;
+        margin-right: 40%;
+        margin-left: 40%;
+    }
+
+    #patchtext {
+        top: 50%;
+        left: 95%;
+        text-shadow: -3px 0px 0 #000,
+        0px -2px 0 #000,
+        -4px 4px 0 #000,
+        -3px 1px 0 #000;
+        font-size: 40px;
+    }
+    .centered {
+        position: absolute;
+        left: 95%;
+        font-size: 40px;
+        text-shadow: -3px 0px 0 #000,
+        0px -2px 0 #000,
+        -4px 4px 0 #000,
+        -3px 1px 0 #000;
+        color: white;
+    }
+    .logo {
+        width: 110%;
+        margin-left: 18%;
+        margin-top: 5%;
+        ;
+    }
+
+    .logo-text {
+        width: 100%;
+        font-size: 250%;
+        margin-top: 2%;
+    }
+
+    .hpatch {
+        font-size: 300%;
+}
+    
+    .ppatch1 {
+        font-size: 110%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .ppatch2 {
+        font-size: 110%;
+                margin-left: 10%;
+        margin-right: 2%
+    }
+
+    .ppatch3 {
+        font-size: 110%;
+            float:left;
+        margin-left: 10%;
+        width: 45%;
+        margin-bottom: 2%;
+    }
+
+    .imgpatch {
+        width: 30%;
+        margin-right: 10%;
+    }
+
+    .ptips1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+}
+
+.ptips2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+            margin-top: 3%;
+}
+
+.ptips3 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+    margin-top: 3%;
+}
+
+.ptips4 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+    margin-bottom: 2%;
+        margin-top: 3%;
+}
+
+.imgtips {
+    width: 100%;
+    float: right;
+    margin-top: 4%;
+    margin-right: 0%;
+}
+
+    .pworld1 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+}
+
+.pworld2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+}
+
+.pworld3 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+    margin-top: 3%;
+}
+
+.pworld4 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 110%;
+}
+
+.imgworld1 {
+    width: 100%;
+    float: right;
+    margin-top: 4%;
+}
+
+.imgworld2 {
+    width: 100%;
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 18%;
+}
+    
+    
+    
+}
